@@ -330,12 +330,36 @@ position: absolute;
 
   .back{
   
-  top: 25%;
-  right: 63px;
+  top: 30%;
+  right: 50px;
   
 }
 .box h1{
  
   overflow-x: scroll;
+}
+}
+
+@media (max-width: 400px){
+
+  .topic-list{
+    grid-template-columns: 1fr;
+  }
+
+  .back{
+  
+  top: 27%;
+  right: 33%;
+  
+}
+.box h1{
+ 
+  overflow-x: scroll;
+}
+
+.course-name-header{
+  font-size: 0.8em;
+  overflow: scroll;
+  border: none;
 }
 }

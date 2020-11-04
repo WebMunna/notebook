@@ -435,16 +435,17 @@ function getInsideEvent(){
   courseNameBox.style.bottom = 'none';
   courseNameBox.style.width = '50%';
   courseNameBox.style.height = '40px';
-  courseNameBox.style.fontSize = '15px';
+  courseNameBox.style.fontSize = '1em';
   courseNameBox.style.boxShadow = 'none';
   // courseNameBox.style.border = '1px solid rgba(0, 0, 0, 0.3)';
   courseNameBox.style.display = 'flex';
   courseNameBox.style.alignItems = 'flex-start';
   courseNameBox.style.justifyContent = 'center';
-  courseNameBox.style.fontWeight = '700';
+  courseNameBox.style.fontWeight = '500';
   courseNameBox.style.transition = 'all 1s';
   courseNameBox.style.borderBottom = '5px solid rgba(255, 255, 255, 0.6)';
   courseNameBox.style.paddingBottom = '22px';
+  courseNameBox.style.overflow = 'scroll'
  
   }, 1000) 
 
