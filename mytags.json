@@ -1,0 +1,304 @@
+[
+{ "name": "inputs-box-name.focus()", "description": "using this line input box will select automatic although we submit previous value."},
+
+{"name" : "setTimeout(() => resetButton.focus(), 331)",  
+  "description": "if we want add anything to to a class/id which will added dynamicly we have to use this line becouse we have to give some to appear our class some time to render."},
+
+{ "name" : "let milisectonBetweenDoband1970 = Date.parse(Dob)", 
+  "description" : "using this line we can get time  difference between 1970 to date of birth in millisecond;"},
+
+{ "name" : "return console.log(arr.filter(x=>x==true).length);",
+  "description": "using this line we can know how may true in this array;"
+},
+
+{"name" : ".length",
+  "description" : "we can't apply this to number type."
+},
+
+{"name" : "if(itemText.toLowerCase().indexOf(text) != -1)",
+  "description" : "this line mean is there text property index of itemText property."
+},
+
+{"name" : "setTimeout(calculateResults, 2000)",
+  "description" : "calculateResult is a function using this line we can make late 2000milisecond to to appearing this function on linstenerFunction or UI."
+},
+
+{"name" : "errorDiv.appendChild(document.createTextNode(error))",
+  "description" : "using this line we are apending our message to a div. "
+},
+
+{"name" : "inNaN(sum)",
+  "description" : "using this line we can  know sum value is nan/empty or not."
+},
+
+{"name" : "isFinite(sum)",
+  "description" : "using this line we can know sum is finite or not."
+},
+
+{"name" : "guessInput.disabled = true;",
+  "description" : "this line mean we disable the input box we cant insert here anything."
+},
+
+{"name" : "console.log(e.target.classList.contains('delete'))",
+  "description" : "this line return a true in console if there really contains a class name delete."
+},
+{"name" : "Object.keys(breedList)",
+  "description" : "breadList is a object but using this line we can make an arrays of this object."
+},
+
+{"name" : ".join('')",
+  "description" : "using this line we can make an array to a single string of text."
+},
+{"name" : "<select onchange='loadByBreed(this.value)'>",
+  "description" : "using this line we can return to function  which option we selet"
+},
+
+{"name" : ".find()",
+  "description" : "its use for find something in arry or other place"
+},
+{"name" : ".insertAdjacentElement('place', element)",
+  "description" : "we can insert any innerHtml inside-before-end position of any element like li."
+},
+
+{"name" : "e.target.clssList.contains('calss-name')",
+  "description" : "by this we can check this class-name in this eventListener id/class or not//"
+},
+{"name" : "e.target.parentNode.parentNode",
+  "description" : "we can go above parent class/id of our target function."
+},
+
+{"name" : "split method",
+  "description" : "we can separed any thing on arry based on anything."
+},
+{"name" : ".querySelectorAll()",
+  "description" : "it produce a nodeList of data that we can use directly.we have to convert it to arry."
+},
+
+{"name" : "Array.form()",
+  "description" : "by this method we can convert nodelist data to array."
+},
+{"name" : "data.items.map(function(){})",
+  "description" : "using this .map tags we can get any item which are stored in data.items array."
+},
+
+{"name" : "data.items.splice(index, 1)",
+  "description" : "using this .splice we can remove anything from the array."
+},
+{
+  "name" : "items.splice(index, 1, updatedItem)",
+  "description" : "this line mean we will remove from items array of index, 1 item and it replace by updated item"
+},
+{
+  "name" : "activePice = []",
+  "description" : "if we set this to initial.using push method to this array we can know if there any number comes two times."
+},
+{
+  "name" : "document.querySelector('.pice-8').style.pointerEvents = 'none';",
+  "description" : "using this line we can disable in pice-8 class any type of pointer action like click"
+},
+{
+  "name" : "Person",
+  "description" : "its not a tag name but we have to use a first-uppercase-word to make a constructor function."
+},
+
+{
+  "name" : "'this'",
+  "description" : "this is a constructor tag. it use for scoping or focusing elements."
+},
+{
+  "name" : "Date.now()",
+  "description" : "will give us today date but not in formated with day-month-year it will show a number of many digit.which is universal time stamp from 1970."
+},
+{
+  "name" : "getTime()",
+  "description" : "will get acject 4-digit year from a new Date.but not in formated."
+},
+{
+  "name" : "new",
+  "description" : "is a constructor tag"
+},
+{
+  "name" : "new Date(given date)",
+  "description" : "is a constructor tag"
+},
+{
+  "name" : "getUTCFullYear()",
+  "description" : "it will extrack the unformated date with bay,month,year of unformated date of Date.now,getTime tags value..it also show well formated today date."
+},
+{
+  "name" : "Math.abs",
+  "description" : "it will convert any number to posite number."
+},
+{
+  "name" : "array_name.push(value1, value2, value_n)",
+  "description" : "the values will be added to the end this method will change the lenth of array."
+},
+{
+  "name" : " xhr.readystate",
+  "description" : "it will show actual work of a xhr methods."
+},
+{
+  "name" : "xhr.open('request type-GET' 'file-data.txt' 'true')",
+  "description" : "xhr.readystate : 1 it means it establish the server connection."
+},
+{
+  "name" : " xhr.progress",
+  "description" : "its xhr.readystate is : 3 means processing request. we can insert here loading animation and other thing."
+},
+{
+  "name" : "xhr.onload",
+  "description" : "its xhr.readystate is : 4 means request fineshed and the response is finished."
+},
+{
+  "name" : "xhr.send()",
+  "description" : "it will finilize our xhr object. "
+},
+{
+  "name" : "xhr.onerror",
+  "description" : "it will work if anything became error."
+},
+{
+  "name" : "xhr.readystate",
+  "description" : ":0 mean request not initialize,and xhr.readystate is :2 mean request receved."
+},
+{
+  "name" : "Http status",
+  "description" : "200:OK, 403:Forbidden, 404: Not Found"
+},
+{
+  "name" : " this.resposeText",
+  "description" : "using this line on xgr.open we can text fromour api file."
+},
+{
+  "name" : "anyfilename.json",
+  "description" : "this file is like normal js file those we can use in the json for store data and use them in json and other places."
+},
+{
+  "name" : "JSON.parse()",
+  "description" : "it converted the array to json object now we can get anyfilename.id or anyfilename.name like this information."
+},
+
+{
+  "name" : "this.http",
+  "description" : "is similiar to const xht so we can use it like this.http.open/this.http.onload/this.http.send/this.http.progress."
+},
+{
+  "name" : "const error = true",
+  "description" : "its mean we make a fake error."
+},
+{
+  "name" : "!error",
+  "description" : "that mean not error."
+},
+{
+  "name" : "new Error",
+  "description" : "we can use that constructor for showing error."
+},
+{
+  "name" : " e.target.value",
+  "description" : "it will take the value of the function we work    "
+},
+{
+  "name" : " target=_blank",
+  "description" : "if we set it on a <a href> link will open on the new tab.       "
+},
+{
+  "name" : " e.target.value",
+  "description" : "it will take the value of the function we work    "
+},
+{
+  "name" : " Object.keys(breedList)",
+  "description" : "breadList is a object but using this line we can make an arrays of this object."
+},
+{
+  "name" : ".join('')",
+  "description" : "using this line we can make an array to a single string of text."
+},
+{
+  "name" : "<select onchange='loadByBreed(this.value)'>",
+  "description" : "using this line we can return to function  which option we selet."
+},
+{
+  "name" : " eval('2+2')",
+  "description" : "it will give us direct result 4;"
+},
+{
+  "name" : "throw",
+  "description" : "we can give any error by this tag."
+},
+{
+  "name" : "g",
+  "description" : "like i its also re flag and its work is find out how many word match with RE word in a big text."
+},
+{
+  "name" : "exec()",
+  "description" : "if we use it with a regular expression variable then it will show regular expression word if it in the exec() breaket or if not it will show null."
+},
+{
+  "name" : "test()",
+  "description" : "return true or false if there is any match with our regular expression word."
+},
+{
+  "name" : " i",
+  "description" : "case insensitive if we put beside our RE word."
+},
+{
+  "name" : "match()",
+  "description" : "its work almost same as exec() but its formation is little different."
+},
+{
+  "name" : "re.sourse",
+  "description" : "it get only element from the regular expression."
+},
+{
+  "name" : "/re = /^((www).)?([a-zA-Z0-9_rightSlase-rightSlase.]+)@([a-zA-Z0-9_rightSlase-rightSlase.]+).([a-zA-Z]{2,5})$/ //",
+  "description" : "   this regular expression code mean   ((www).)?___ this group is optional  ([a-zA-Z0-9_rightSlase-rightSlase.]+)___this group takes any amount upper-lowercase letter,number,_,., but this is not optional.  @_.__must have   ([a-zA-Z]{2,5})____this group takes upper-lower case 2-5 amount of word."
+},
+{
+  "name" : ".find()",
+  "description" : "its use for find something in arry or other place"
+},
+{
+  "name" : ".insertAdjacentElement('place', element)",
+  "description" : "we can insert any innerHtml inside-before-end position of any element like li."
+},
+{
+  "name" : "e.target.clssList.contains('calss-name')",
+  "description" : "by this we can check this class-name in this eventListener id/class or not//"
+},
+{
+  "name" : "e.target.parentNode.parentNode",
+  "description" : " we can go above parent class/id of our target function."
+},
+{
+  "name" : "split method",
+  "description" : "we can separed any thing on arry based on anything."
+},
+{
+  "name" : ".querySelectorAll()",
+  "description" : "it produce a nodeList of data that we can use directly.we have to convert it to arry."
+},
+{
+  "name" : "Array.form()",
+  "description" : "by this method we can convert nodelist data to array."
+},
+{
+  "name" : "data.items.map(function(){})",
+  "description" : "using this .map tags we can get any item which are stored in data.items array."
+},
+{
+  "name" : "data.items.splice(index, 1)",
+  "description" : "using this .splice we can remove anything from the array."
+},
+{
+  "name" : "items.splice(index, 1, updatedItem)",
+  "description" : "this line mean we will remove from items array of index, 1 item and it replace by updated item"
+},
+{
+  "name" : "activePice = []",
+  "description" : "if we set this to initial.using push method to this array we can know if there any number comes two times.  document.querySelector('.pice-8').style.pointerEvents = 'none';____using this line we can disable in pice-8 class any type of pointer action like click "
+}
+
+
+
+]

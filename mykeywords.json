@@ -1,0 +1,1074 @@
+[
+
+  
+  {
+    "topic": "Data Types In Javascript",
+    "topicAbout": "different type of data type ",
+    "name" : "primative data type",
+    "description" : "string -exm- 'Muhammad Arabi'. string -exm- 'Muhammad Arabi'.number -exm- 45 ,34   .boolean -exm- true. null -exm- 'null'. Symbol -exm- Sumbol(name).."
+  },
+  {
+    "topic": "Data Types In Javascript",
+    "topicAbout": "different type of data type ",
+    "name" : "Reference data type",
+    "description" : "-Array -exm- ['data1', 'data2', 'data3'].Array -exm- ['data1', 'data2', 'data3']."
+  },
+  { "topic" : "Type Converesion",
+    "topicAbout" : "converting one data type to another-",
+    "name" : "Date,Number,Bool,Array to string to Number",
+    "description" : "----//Number to string// val = String(555); val = String(4+4); val = (555 .toString();//Date to string// val = String(new Date())//Array to string// val = String([1,2,3,4])//Bool to string// val String(true) val = (true).toString();//String to number// val = Number('5'); val = Number(true); val = Number(false); val = Number(null);val = Number('hello'); val = Number([1,2,3]); val = parseInt('100'); val = parseFloat('100.30');  //we can insert two data type one to another//const val1 = String(5); cosnt val2 = 6; cosnt sum = val1 + val2 >>>result will be 56."
+  },
+  {
+    "topic" : "Numbers The Math Object",
+    "topicAbout": "doing math using javascript",
+    "name" : "Simple math with number ",
+    "description" : "val = num1 + num2; val = num1 * num2; val = num1 - num2; val = num1 / num2; val = num1 % num2;"
+  },
+  {
+    "topic" : "Numbers The Math Object",
+    "topicAbout": "doing math using javascript",
+    "name" : "Math object",
+    "description" : "val = Math.PI; val = Math.E; val = Math.round(2.4);  val = Math.ceil(2.4);  val = Math.floor(2.4;  val = Math.sqrt(64);  val = Math.abs(-3);   val = Math.pow(8, 2);   val = Math.min(2,33,4,1,55,6,3,-2);   val = Math.max(2,33,4,1,55,6,3,-2);   val = Math.randomn();   val = Math.floor(Math.random() * 20 + 1);___this line will give us a random number between 20 to 1;"
+  },
+  {
+    "topic" : "Numbers The Math Object",
+    "topicAbout": "doing math using javascript",
+    "name" : "Appending word",
+    "description" : "val = firstName + lastName   val = 'Allaudding';  val += 'Hossaing';"
+  },
+  {
+    "topic" : "Numbers The Math Object",
+    "topicAbout": "doing math using javascript",
+    "name" : "Escaping",
+    "description" : "val = 'Thst' left slase s awsome, I can slase t wait';using escaping we can use any symbol in the word. "
+  },
+  {
+    "topic" : "Numbers The Math Object",
+    "topicAbout": "doing math using javascript",
+    "name" : "Length",
+    "description" : "val = firstName.length _____ now we can know how many letter in this word. if we use length wth arry we can know how many word in this array.    String Method: append(adding word),concat(adding word),upper-lowercase,indexof,charAt,last char,substring(get a part of word),slice(get a part of word),split(separating based on something),replace,includes.  "
+  },
+  {
+    "topic" : "Numbers The Math Object",
+    "topicAbout": "doing math using javascript",
+    "name" : "Concat",
+    "description" : "val = firstName.concat(' ', lastName);"
+  },
+  {
+    "topic" : "Numbers The Math Object",
+    "topicAbout": "doing math using javascript",
+    "name" : "Chang case",
+    "description" : "val = firstName.toUpperCase();  val = firstName.toLowerCase();"
+  },
+  {
+    "topic" : "Numbers The Math Object",
+    "topicAbout": "doing math using javascript",
+    "name" : "Index",
+    "description" : "val = firstName[2];___we will get acject word which will on index 2 of our firstName value;    val = firstName.charAt('2');___we will get acject word which will on index 2 of our firstName value;   val = firstName.charAt(firstName.length - 1)____using this line we can get last item/letter of this firstName value    val = firstName.indexOf('a')___we will get which letter in this index.   val = firstName.lastIndexOf('l')___we will get which letter in this index from the last."
+  },
+  {
+    "topic" : "Numbers The Math Object",
+    "topicAbout": "doing math using javascript",
+    "name" : "Substring",
+    "description" : "val = firstName.substring(0, 4);____using this line we can get acject length of word from a big word."
+  },
+  {
+    "topic" : "Numbers The Math Object",
+    "topicAbout": "doing math using javascript",
+    "name" : "Slice",
+    "description" : "val = firstName.slice(0, 4);____using this line we can get acject length of word from a big word.   val = firstName.slice(-3);____using this line we can get acject length of word from a big word from the back."
+  },
+  {
+    "topic" : "Numbers The Math Object",
+    "topicAbout": "doing math using javascript",
+    "name" : "Split",
+    "description" : "val = (my name is khan).split(' ')____using this line we can separate our sentence based on space within a array.    val = ().split()_____we can use this method with almost any thing."
+  },
+  {
+    "topic" : "Numbers The Math Object",
+    "topicAbout": "doing math using javascript",
+    "name" : "Replace",
+    "description" : "val = (my name is khan).replace('khan', 'Uddin'); "
+  },
+  {
+    "topic" : "Numbers The Math Object",
+    "topicAbout": "doing math using javascript",
+    "name" : "Includes",
+    "description" : "val = (my name is khan).incluses('khan');___using this line we can check this word in here or not.   "
+  },
+  {
+    "topic" : "Arrayes Method",
+    "topicAbout": " what can we do with this array type ",
+    "name" : "check if is array typoe",
+    "description" : "val = Array.isArray(numbers);"
+  },
+  {
+    "topic" : "Arrayes Method",
+    "topicAbout": " what can we do with this array type ",
+    "name" : "get single value",
+    "description" : "val = numbers'thirdbreaket 3 thirdbreaket;    val = numbers[0];"
+  },
+  {
+    "topic" : "Arrayes Method",
+    "topicAbout": " what can we do with this array type ",
+    "name" : "insert into array",
+    "description" : "numbers[2] = 100;"
+  },
+  {
+    "topic" : "Arrayes Method",
+    "topicAbout": " what can we do with this array type ",
+    "name" : "find index of value",
+    "description" : "val = numbers.indexOf(36)"
+  },
+  {
+    "topic" : "Arrayes Method",
+    "topicAbout": " what can we do with this array type ",
+    "name" : "add something to end",
+    "description" : "numbers.push(250);"
+  },
+  {
+    "topic" : "Arrayes Method",
+    "topicAbout": " what can we do with this array type ",
+    "name" : "delete something from end",
+    "description" : "numbers.pop()"
+  },
+  {
+    "topic" : "Arrayes Method",
+    "topicAbout": " what can we do with this array type ",
+    "name" : "delete something from start/front",
+    "description" : "numbers.shift()"
+  },
+  {
+    "topic" : "Arrayes Method",
+    "topicAbout": " what can we do with this array type ",
+    "name" : "splice/delete something from inside",
+    "description" : "numbers.splice(1,3);___using this line we can delete index 1 to index 3."
+  },
+  {
+    "topic" : "Arrayes Method",
+    "topicAbout": " what can we do with this array type ",
+    "name" : "revers full array one side to another",
+    "description" : "numbers.reverse();"
+  },
+  {
+    "topic" : "Arrayes Method",
+    "topicAbout": " what can we do with this array type ",
+    "name" : "we can concat/append/add two array",
+    "description" : "val = numbers.concat(numbers2);"
+  },
+  {
+    "topic" : "Arrayes Method",
+    "topicAbout": " what can we do with this array type ",
+    "name" : "shorting arrays",
+    "description" : "val = fruit.sort();   val = numbers.sort();    //use the compare function/b   val = numbers.sort(function(x,y){ return x - y})___using this line we can short array max to min.    val = numbers.sort(function(x,y){return y -x }___using this line we can short array min to max.   //tags//: __isArray,inserting on array(xxx[n]=something),indexof,push(add something on last),unshift(add something on first),shift(remove something from first),pop(remove something from last),splice(remove something from the array),reverse,sort,find.   "
+  },
+  
+  
+  {
+    "topic" : "Object Method",
+    "topicAbout": "what can we do with object type",
+    "name" : "crating a object type data",
+    "description" : "const person = {     firstName: 'Abdullah',     age: 30,     hobbies: ['music', 'sports'],     address: {city: 'miami', state: 'fl'};     getBitstYear: function(){return 1987 - this.age};    }     "
+  },
+  {
+    "topic" : "Object Method",
+    "topicAbout": "what can we do with object type",
+    "name" : "get specific value",
+    "description" : "val = person.firstName; val = person['firstName'];    val = person.hobbies[1];    val = person.address.state;   val = person.address['city'];"
+  },
+  {
+    "topic" : "Object Method",
+    "topicAbout": "what can we do with object type",
+    "name" : "get specific value",
+    "description" : "val = person.firstName    val = person['firstName'];   val = person.hobbies[1];   val = person.address.state;   val = person.address['city'];"
+  },
+  {
+    "topic" : "Date Times",
+    "topicAbout": "what we can do with the date object",
+    "name" : "get today date",
+    "description" : "const today = new Date();"
+  },
+  {
+    "topic" : "Date Times",
+    "topicAbout": "what we can do with the date object",
+    "name" : "make a pcific date a formatted date",
+    "description" : "const date = new Date('9-10-1981 11:55:00')____ it will show this date in formated.   const date = new Date('septemberrt 10 1981')____ it will show this date in fomated.   const date = new Date('9/10/1981')____ it will show this date in formated.   "
+  },
+  {
+    "topic" : "Date Times",
+    "topicAbout": "what we can do with the date object",
+    "name" : "get month-date-day-year-hour-minute-second-milisecond-time",
+    "description" : "today = new Date()    val = today.getMonth();___date is 0 based.so 0 month mean january.    val = today.getDate();    val = today.getDay();   val = today.getFullYear();    val = today.getHours();   val = today.getMinutes();    val = today.getMillisecond();   val = today.getTime();____it will give a time stand from 1970."
+  },
+  {
+    "topic" : "Date Times",
+    "topicAbout": "what we can do with the date object",
+    "name" : "set month-date-day-year-hour-minute-second-milisecond-time",
+    "description" : "birthday = new Date('9/10/1981')   birthday.setMonth(2);    birthday.setDate(12);    birthday.setFullYear(1985);    birthday.setHours(3);    birthday.setMonth(2);    birthday.setMinutes(30);    birthday.setSecond(25);   birthday.setMillisecond(2);"
+  },
+  {
+    "topic" : "If Statement",
+    "topicAbout": "How we can use any condition",
+    "name" : "basic structore of if",
+    "description" : "if(something){      do something     } else {     do something else      }"
+  },
+  {
+    "topic" : "If Statement",
+    "topicAbout": "How we can use any condition",
+    "name" : "check if something undefined",
+    "description" : "if(typeof id !== 'undefined'){     console.log(`The ID id ${id}`);      } else {     console.log('NO ID')      }"
+  },
+  {
+    "topic" : "If Statement",
+    "topicAbout": "How we can use any condition",
+    "name" : "Greater or less than",
+    "description" : "id = 100;    if(id <= 100){   console.log('correct');    } else {   console.log('incorrect')}   "
+  },
+  {
+    "topic" : "If Statement",
+    "topicAbout": "How we can use any condition",
+    "name" : "if else",
+    "description" : "const color = 'yellow';   if(color === 'red'){    console.log('color is red')    } else if(color === 'blue'){   console.log('color is blue')   } else {   console.log('color is not red or blue')   }"
+  },
+  {
+    "topic" : "If Statement",
+    "topicAbout": "How we can use any condition",
+    "name" : "Logical Operators",
+    "description" : ""
+  },
+  {
+    "topic" : "If Statement",
+    "topicAbout": "How we can use any condition",
+    "name" : "AND &&",
+    "description" : "const name = 'steve';   const age = 70;    -- AND && --   if(age > 0 && age < 12){   console.log(`${name} is a child`);    } else if(age >= 13 && age <= 19){    console.log(`${name} is a teneger`);   } else {    conslole.log(`${name} is a addult`);    }"
+  },
+  {
+    "topic" : "If Statement",
+    "topicAbout": "How we can use any condition",
+    "name" : "OR ||",
+    "description" : "if(age < 16 || age > 65){      console.log(`${name} can not run in race`)     } else {     console.log(`${name} can run in race`)      }"
+  },
+  {
+    "topic" : "If Statement",
+    "topicAbout": "How we can use any condition",
+    "name" : "Ternary Operator",
+    "description" : "id = 100;    console.log(id === 100 ? 'correct' : 'incorrect')   "
+  },
+  {
+    "topic" : "If Statement",
+    "topicAbout": "How we can use any condition",
+    "name" : "if statement without breakes",
+    "description" : "if(age < 16 || age > 65)    console.log(`${name} can not run in race`)     else    console.log(`${name} can run in race`)    "
+  },
+  {
+    "topic" : "Switches",
+    "topicAbout": "alternative way of if statement",
+    "name" : "exm-Color switch",
+    "description" : "const color = 'yellow';   switch(color){   case 'red':   console.log('color is red');   break;   case 'blue':    console.log('color is blue');    break;   default:   console.log('color is not red or blue');   break;   }"
+   },
+  {
+    "topic" : "Switches",
+    "topicAbout": "alternative way of if statement",
+    "name" : "exm-Day",
+    "description" : "let day;   switch(new Date().getDay()){   case 0:    day = 'Sunday';    break;    case 1:    day = 'monday';    break;    case 2:    day = 'tuesday';    break;   case 0:   day = 'wednesay';   break;   case 0:   day = 'Sunday';   break;   case 0:   day = 'thursday';  break;   case 0:  day = 'friday';   break;  })  console.log(`today is ${day}`);"
+  },
+  {
+    "topic" : "Function",
+    "topicAbout": "All about function",
+    "name" : "function declaration",
+    "description" : "function great(firstName, lastName){     console.log('Hello');     }     great(); ______ all the work done in function nthing is returned so we just call it and result will display.          function great(firstName, lastName){     return 'hello'      }    console.log(great('John'));___this function return something so we can use it.    "
+  },
+  {
+    "topic" : "Function",
+    "topicAbout": "All about function",
+    "name" : "Function Expression",
+    "description" : "const squre = function(x = 3){      return x*x      }     console.log(squre());"
+  },
+  {
+    "topic" : "Function",
+    "topicAbout": "All about function",
+    "name" : "Immidiatley Invokable Function Expressions - IIFEs",
+    "description" : "(function(){    console.log('IIFE Ran..');     })();_______this function will declare and run at a time_best use with pattern     (function(name){       cinsole.log('Hello' + name)       })('Abdullah');      "
+  },
+  {
+    "topic" : "Function",
+    "topicAbout": "All about function",
+    "name" : "Property Method",
+    "description" : "const todo = {     add: function(){     console.log('Add todo..');     },      edit: function(id){     consolog.log(`Edit todo ${id}`);      }     }     todo.delete = functon(){console.log('Delete todo..')}___using this line we can function from the outside of main function.            todo.add();      todo.edit(22);      todo.delete();"
+  },
+  {
+    "topic" : "Loops",
+    "topicAbout": "looping untill the condition if fullfil",
+    "name" : "For Loop",
+    "description" : "for(let i = 0; i < 10; i++){      if(i === 2){     console.log('2 is my facourite number')     continue;______this continue mean loop will start from the first line and 2 will not appear on console.log('Number '+ i);      }           if(i === 5){      console.log('stop the loop');     break;      }     console.log('Number'+ i);      }     "
+  },
+  {
+    "topic" : "Loops",
+    "topicAbout": "looping untill the condition if fullfil",
+    "name" : "For In Loop",
+    "description" : "const user = {     firstName: 'Sadek',     lastName: 'Tanvir',     age: 40     }     for(let x in user){     console.log(`${x} : ${user[x]}`);_____we can get key and vlue at a time.     "
+  },
+  {
+    "topic" : "Loops",
+    "topicAbout": "looping untill the condition if fullfil",
+    "name" : "While Loop",
+    "description" : "let i = 0;    while(i <10){    console.log('Number ' + i);   i++;   }   "
+  },
+  {
+    "topic" : "Loops",
+    "topicAbout": "looping untill the condition if fullfil",
+    "name" : "Do while",
+    "description" : "let i = 100;   do {    console.log('number ' + i);    i++;    }    while(i < 10);____do while loop alwayes gona run no matter what.    "
+  },
+  {
+    "topic" : "Loops",
+    "topicAbout": "looping untill the condition if fullfil",
+    "name" : "forEach",
+    "description" : "cars.forEach(function(car){      console.log(car);      });           cars.forEach(function(car, index){     console.log(`${index} : ${car}`);_____for loops takes index also.      });           cars.forEach(function(car, index, array){      console.log(`${index} : ${car}`);_____for loops takes index also.      console.log(array);      });      "
+  },
+  {
+    "topic" : "Loops",
+    "topicAbout": "looping untill the condition if fullfil",
+    "name" : "Map",
+    "description" : "const users = [     {id: 1, name: 'Abdullah'},    {id: 2, name: 'Akter'},     {id: 3, name: 'Sirin'},      {id: 4, name: 'Hasan'},     ]      const ids = users.map(function(user){      return user.id;      })     console.log(ids);"
+  },
+  {
+    "topic" : "Window",
+    "topicAbout": "We can do anything using widow method",
+    "name" : "Window methods / object / properties",
+    "description" : "console.log(123) sameas window.console.log(123)"
+  },
+  {"topic" : "Window",
+    "topicAbout": "We can do anything using widow method",
+    "name" : "alert",
+    "description" : "alert('hello world');"
+  },
+  {
+    "topic" : "Window",
+    "topicAbout": "We can do anything using widow method",
+    "name" : "promt",
+    "description" : "const input = prompt();   alert(input);"
+  },
+  {
+    "topic" : "Window",
+    "topicAbout": "We can do anything using widow method",
+    "name" : "confirm",
+    "description" : "if(confirm('Are you sure')){     console.log('yes');      } else {    console.log('no')      }     "
+  },
+  {
+    "topic" : "Window",
+    "topicAbout": "We can do anything using widow method",
+    "name" : "Outer height and width",
+    "description" : "val = window.outerHeight;  val = window.outerWidth;"
+  },
+  {
+    "topic" : "Window",
+    "topicAbout": "We can do anything using widow method",
+    "name" : "Inner height and width",
+    "description" : "val = window.innerHeight;   val = window.innerWidth;"
+  },
+  {
+    "topic" : "Window",
+    "topicAbout": "We can do anything using widow method",
+    "name" : "Scroll points",
+    "description" : "val = window.scrollY;  val = window.scrollX;"
+  },
+  {
+    "topic" : "Window",
+    "topicAbout": "We can do anything using widow method",
+    "name" : "Location Object",
+    "description" : "val = window.location;   val = window.location.hostname;   val =window.location.port;    val = window.location.href;   val = window.location.search;"
+  },
+  {
+    "topic" : "Window",
+    "topicAbout": "We can do anything using widow method",
+    "name" : "Redirect",
+    "description" : "window.location.href = 'http://google.com';"
+  },
+  {
+    "topic" : "Window",
+    "topicAbout": "We can do anything using widow method",
+    "name" : "Reload",
+    "description" : "window.location.reload();"
+  },
+  {
+    "topic" : "Window",
+    "topicAbout": "We can do anything using widow method",
+    "name" : "History object",
+    "description" : "window.history.go'first-2first' _____it will go back last 2nd webside we have browssed.    window.hinstory.length;_____using this line we can know how mant website we browsed. "
+  },
+  {
+    "topic" : "Window",
+    "topicAbout": "We can do anything using widow method",
+    "name" : "Navigator Object",
+    "description" : "val = window.navigator;   val = window.navigator.appName;    val = window.navigator.appVerson;    val = wondow.navigator.userAgent;_____it will show information about our browser.   val = wondow.navigator.platfrom;   val = window.navigator.vendor;    val = window.navigator.language;"
+  },
+
+  {
+    "topic" : "Dom Selector",
+    "topicAbout" : "All about select element",
+    "name" : "single selector",
+    "description" : "document.getElementById, document.quearyselector are the single element selector, the style and other effect will only work for first element from the top."
+  },
+
+  {
+    "topic" : "Dom Multi Selector",
+    "topicAbout" : "All about select element",
+    "name" : "Multi selector",
+    "description" : " style property will not effect directly Html collection file type.it can be done by for loop and a forEach loop with function.getElementByClassName,and querySelectorAll are the multiple selector."
+  },
+
+  {
+    "topic" : "Traversy",
+    "topicAbout" : "go up and down by selector",
+    "name" : "Get child nodes",
+    "description" : "  val = list.childNodes;   val = list.childNodes[0];    val = list.childNodes[0].nodeName;    val = list.childNodes[0].nodeType; "
+  },
+
+  {
+    "topic" : "Traversy",
+    "topicAbout" : "go up and down by selector",
+    "name" : "nodeTypes",
+    "description" : "//1 - Element  //2 - Attribute(diprecated)  //3 - text node   //8 - comment//9 - Document itself //10 - Doctype"
+  },
+  {
+    "topic" : "Traversy",
+    "topicAbout" : "go up and down by selector",
+    "name" : "get children element nodes",
+    "description" : "    val = list.children;   val = list.childern[1];    list.children(1).textContent = 'Hello';                                "
+  },
+  {
+    "topic" : "Traversy",
+    "topicAbout" : "go up and down by selector",
+    "name" : "children of children",
+    "description" : "list.children[3].children[0].id = 'test-link';    val = list.children[3].children[0];"
+  },
+  {
+    "topic" : "Traversy",
+    "topicAbout" : "go up and down by selector",
+    "name" : "first child",
+    "description" : "val = list.firstChild;   val = list.firstElementChild;"
+  },
+  {
+    "topic" : "Traversy",
+    "topicAbout" : "go up and down by selector",
+    "name" : "last child",
+    "description" : "val = list.lastChild;    val = list.lasttElementChild;                    val = list.childElementCount;____using this line we can know how many element in there.    "
+  },
+  {
+    "topic" : "Traversy",
+    "topicAbout" : "go up and down by selector",
+    "name" : "Get parent node",
+    "description" : "val = listItem.parentNode;   val = listItem.parentElement;    val = listItem.parentElement.parentElement;"
+  },
+  {
+    "topic" : "Traversy",
+    "topicAbout" : "go up and down by selector",
+    "name" : "Get next sibling",
+    "description" : "val = listItem.nextSibling;    val = listItem.nextElementSibling.nextElemtnSibling.previousElementSibling;"
+  },
+  {
+    "topic" : "Traversy",
+    "topicAbout" : "go up and down by selector",
+    "name" : "get prev sibling",
+    "description" : "val = listItem.previousSibling;   val = listItem.previousElementSibling;"
+  },
+
+  {
+    "topic" : "Traversy",
+    "topicAbout" : "go up and down by selector",
+    "name" : "All traversy in short",
+    "description" : "list.childNode (it will take all the item include line break),.nodeName,.nodeType.    .children  (it will take only element)    .children.children (it will take the element from this children)    .firstElementChild,firstchild,nextsibling,previoussibling.   .lastElementchild, lastchild, nextelementsibling, previouselementsibling.    .childElementCount    .parentNode   .parentElement    .parentElement.parentElemetn (it will go up and up)"
+  },
+
+  {
+    "topic" : "Create Element",
+    "topicAbout" : "Creating html element in dynamicly",
+    "name" : "create element",
+    "description" : "const li = document.createElement('li');"
+  },
+
+{
+    "topic" : "Create Element",
+    "topicAbout" : "Creating html element in dynamicly",
+    "name" : "add class",
+    "description" : "li.className = 'collection-item';"
+  },
+  {
+    "topic" : "Create Element",
+    "topicAbout" : "Creating html element in dynamicly",
+    "name" : "add id",
+    "description" : "li.id = 'new-item';"
+  },
+  {
+    "topic" : "Create Element",
+    "topicAbout" : "Creating html element in dynamicly",
+    "name" : "add attribute",
+    "description" : "li.setAttribute('title', 'New Item')"
+  },
+  {
+    "topic" : "Create Element",
+    "topicAbout" : "Creating html element in dynamicly",
+    "name" : "create text node and append",
+    "description" : "li.appendChild(document.crteateTextNode('Hello World'));"
+  },
+  {
+    "topic" : "Create Element",
+    "topicAbout" : "Creating html element in dynamicly",
+    "name" : "create new text element",
+    "description" : "const link = document.createElement('a');"
+  },
+  {
+    "topic" : "Create Element",
+    "topicAbout" : "Creating html element in dynamicly",
+    "name" : "add classes",
+    "description" : "link.className = 'delete-item secondary-content';"
+  },
+  {
+    "topic" : "Create Element",
+    "topicAbout" : "Creating html element in dynamicly",
+    "name" : "add icon html",
+    "description" : "link.innerHtml = '<i class =fa fa-remove></i>';"
+  },
+  {
+    "topic" : "Create Element",
+    "topicAbout" : "Creating html element in dynamicly",
+    "name" : "append link into li",
+    "description" : "li.appendChild(link);"
+  },
+  {
+    "topic" : "Create Element",
+    "topicAbout" : "Creating html element in dynamicly",
+    "name" : "append li as child to ul",
+    "description" : "document.querySelector('ul.collection').appendChild(li);"
+  },
+  {
+    "topic" : "Create Element",
+    "topicAbout" : "Creating html element in dynamicly",
+    "name" : "tags",
+    "description" : "document.creatElement, something.className=,something.id=,something.setAttribute(),something.appendChild(),something.innerHTML().        "
+  },
+  
+  {
+    "topic" : "Remove Replace",
+    "topicAbout" : "remove or replace element",
+    "name" : "replace formula",
+    "description" : "                something.classList.remove/add(''),     something.getAttributes('')   something.setArrributes('name', 'element')    something.hasAttributes('') _a algoridom check    something.removeAttributes('name', 'element')"
+  },
+
+  {
+    "topic" : "Event Listener",
+    "topicAbout" : "add event listener to any element",
+    "name" : "event formula",
+    "description" : "something.addEventListener('event name', a function(x){x.allevent parameters});"
+  },
+
+  {
+    "topic" : "Event Listener",
+    "topicAbout" : "add event listener to any element",
+    "name" : "Keybord Input event",
+    "description" : "'focus' 'blur'_if we click any input box it will make focus active.unclick then blur will active. 'keydown', 'keyup','keypress', 'cut', 'paste','change', 'input'.    "
+  },
+  {
+    "topic" : "Event Listener",
+    "topicAbout" : "add event listener to any element",
+    "name" : "Mouse Event",
+    "description" : "even name= 'click' 'dblclick' 'mousedown' 'mouseup' 'mouseenter' 'mouseleave' {'mouseover' 'mouseout' efect only on element}, 'mousemove.    e.offset or e.otherevent properties can be used for making something new."
+  },
+
+  {
+    "topic" : "Event Bubbling And Delegation",
+    "topicAbout" : "event bubbling and event delegation is oppsite from each other.",
+    "name" : "",
+    "description" : "event bubbling_if there is manay event listner and they are with child-to-parents top to bottom then click only smallest child then it will work till their main parents.   event delegation_work with parent-to-child if we call any parent with common class name the eventlistener will work for first one only..we have to use if condition for make working every element.    e.target.parentElement.className === 'classname randomclssname' _it make working only this className randomclassname tag elements.   e.target.parentElement.classNameList.contains('classname')_it is enough to have this classname only to make it work.Nomather if new class name will add with this classname.    e.target.parentElement.parentElement.remove()"
+  },
+
+  {
+    "topic" : "Task list Project",
+    "topicAbout" : "add task to ui list",
+    "name" : "Task List 1",
+    "description" : "loadEventListener();    function.loadEventListeners(){form.addEventListener('submit', 'addsomething')} function addsomething(x){const li = document.createElement('li');     "
+  },
+
+  {
+    "topic" : "Task list Project",
+    "topicAbout" : "add task to ui list",
+    "name" : "Task List 2",
+    "description" : "by calling eventListener removesomething and check something in list____    tasklist.addEventListener('click', removesomething);         "
+  },
+
+  {
+    "topic" : "Loan Calculator",
+    "topicAbout" : "calculating loan in of a certain time",
+    "name" : "Loan Calculator 1",
+    "description" : "making a html structure with all essential tags and class names.    "
+  },
+
+  {
+    "topic" : "Loan Calculator",
+    "topicAbout" : "calculating loan in of a certain time",
+    "name" : "Loan Calculator 2",
+    "description" : "js script writting to make working the loan calculator....//first make an eventListener for the form//    document.querySelector('.form').addEventListener('submit', calculateresult);   //defined all variables according to formula//     function calculateresult(e){--in the project file, loan calculator by me--}    //some important tags of js//--     --isFinite__mean a absolute number.    --showError__its not any tags its call a function which defined under.     --class/id-name.insertBefore(thedivname-wewntinsert, thedivname-wewantinsert-beforeit)___the first class/id..name should be the parents of our main two element in the breaket.                                                                          --setTimeout(a-name-which-willcallfunction, time-in-milisecond)"
+  },
+
+  {
+    "topic" : "Loan Calculator",
+    "topicAbout" : "calculating loan in of a certain time",
+    "name" : "Loan Calculator 3",
+    "description" : "make working loading.gif and make delay main calculating method....//first make display=none of certain div-boxes from css//   "
+  },
+
+  {
+    "topic" : "Number Guesser",
+    "topicAbout" : "making a number guesser game",
+    "name" : "Number Guesser2",
+    "description" : "make working the number guesser game,    set different parameeter with different value in on function,    making input disable,                                   //first we have to decide all the game work which will do next//    //set all gamne variables all we use next//             //defined all html variables/            //set only one eventListener on only button..more in guessnumber-me project file//                                                   //some important tags of js....                -- function-calling-name(value1,value2)_function function-calling-name(variable1/parameter-for-value1, variable2/parameter-for-value2.                                  --isNaN_this tag is use for checking is is 0-null or not.                                               --parseInt_this tag is use for make the element/value integer.     "
+  },
+
+  
+  {
+    "topic" : "Number Guesser",
+    "topicAbout" : "making a number guesser game",
+    "name" : "Number Guesser 3",
+    "description" : "if there is same type work in different stage we can make one function to make them work at a time with set ternary operator..   //make a function with two or many paramenter/variable and set ternamry operator to make them active in different time//..     function calling-name(parameter1, parameter2, other-parameter){ parameter1 === true ? color/property = 'red'/working-tag : color/property = 'green'/other-working-tag-----more-in-numberguesser-me-----}.    //and this function can be calling in different stage with their values//..     calling-name(value1-for-parameter1/true, value2-for-parameter2 )"
+  },
+  {
+    "topic" : "Number Guesser",
+    "topicAbout" : "making a number guesser game",
+    "name" : "Number Guesser 4",
+    "description" : "make the page relode by mousedown event-delegatin, make a random number generator,    "
+  },
+
+  {
+    "topic" : "Constructor And The This KeyWord",
+    "topicAbout" : "calculate age from the birthdate,know about constructor,    returning function final result.",
+    "name" : "make a constructor function with two/many parameter values will given with function-calling in under",
+    "description" : "function Person/a-name-with-firstuppercase (parameter1, parameter2) {this.parameter1 = parameter1}    this.parameter2}__parameter1 maybe a name more in constructor project file. //we can return a function final value by return tag and we can call the //"
+  },
+
+  {
+    "topic" : "Build In Constructor",
+    "topicAbout" : "our regular data type like string,number,boolean,array they will converted to object type data and every elphabet will became a object also to set 'new' constructor before,",
+    "name" : "",
+    "description" : ""
+  },
+  {
+    "topic" : "Build In Constructor",
+    "topicAbout" : "our regular data type like string,number,boolean,array they will converted to object type data and every elphabet will became a object also to set 'new' constructor before,",
+    "name" : "add 'new' constructor after any variables with their data type name",
+    "description" : "const variable = new String(anyvalue)___anyvalue will became object type data"
+  },
+  {
+    "topic" : "Build In Constructor",
+    "topicAbout" : "our regular data type like string,number,boolean,array they will converted to object type data and every elphabet will became a object also to set 'new' constructor before,",
+    "name" : "but array type will remain unchanged",
+    "description" : " const variabale = new Array(values)___value type will not change."
+  },
+
+  {
+    "topic" : "Prototype Explained",
+    "topicAbout" : "each object of javascript have his own prototype and the prototype a object itself, there is object prototye and we will find inside of any Person-constractor/anything-prototype.    we can do anything within Person-constractor/anything_.prototype of outside Person-constractor/anything and we can also call them like other object or function but they will store only inside the prototype.",
+    "name" : "store something on prototype",
+    "description" : "Person-constractor/anything-prototype.calling-name = function (){},or any other thing.//we can add and replace anything in prototype also//..   //more information on prototype explained me project file//"
+  },
+
+  {
+    "topic" : "Prototype Inheritence",
+    "topicAbout" : "we can access one constructor function to another constructor function.",
+    "name" : "prototype inheritence",
+    "description" : "//we can make constructor fuction,and also make function on its prototype and can call them anywhere with all of its property values//   //we can call another constructor function information//..    constructor-name.call(this, property1, property2, etc).    //we can  take prototype from another constructor-prototype//    constructor-name2.prototype = Object.creat(constructor-name1.prototype);    //we can place constructor to its own constructor-name.prototype//..    constructor-name.prototype.constructor = constructor-name.   //after calling other prototype we can manupulate them"
+  },
+
+  {
+    "topic" : "Uaing Object.create",
+    "topicAbout" : "by Object.create constructor will store in prototype, ane we will give properties and values from outside",
+    "name" : "Using object.create",
+    "description" : " //we can create many constructor under one constructor object variable//..    const object-variable = {constructor1: function(){this.properties1, this.properties2}}   //we can replace/add values by set another constructor under this//   constructor2: function(newvalue){this.properties1 = newvalue} ___when we call contructor1 the new value will show in the place of old value.   //before we insert information in normal constructor by (const variable = new constructor-name(value)) but in object type constructor we will use Object.create//   const variable-name = Object.create(object-type-constructor1); variable.name = 'values';"
+  },
+
+  {
+    "topic" : "ES6 Classes",
+    "topicAbout" : "anything we insert in es6 classes they will show in prototype automatic no need use constructorname.prototype tags, static method.",
+    "name" : "ws6 classes",
+    "description" : " //under class name {} breaker we can insert many constructor//____ more in es6 classes project file    //we can call static function like other constructor function insert with, calling methid is different of a static function//...   class-name.static-name(value1, value2);"
+  },
+
+  {
+    "topic" : "Sub Classes",
+    "topicAbout" : "we can make a subclass of a class",
+    "name" : "sub class ",
+    "description" : "/make subclass with extends tag//    class subclass-name extends mainclass-name    //we have to use super() tag for getting main-class properties//    super(main-class-proparty1, main-class-property2)    //now we can use any method function of main-class without any calling//   //but we can't use subclass method through main class constructor//"
+  },
+
+  {
+    "topic" : "The Book List",
+    "topicAbout" : "adding book, delete book, store on ls",
+    "name" : "Build The Booklist UI",
+    "description" : "using css html without css can be use the skeliton cdn.    "
+  },
+  {
+    "topic" : "The Book List",
+    "topicAbout" : "adding book, delete book, store on ls",
+    "name" : "Add Book To List",
+    "description" : "using two constructor under one submit eventlistener.      //make a event listener for give all the values to ui constructor which constructor will add our books//    //make a variable which will give information to a empty contructor//__although it is empty constructor but we will use its prototype.    const ui(variable-name) = new UI(constructor-name);    //we will create two method function calling of ui. one with a properties(book)//__one wil add book and the other one will clear input.    ui.addBookList(book)__ui.clearLIst    //these two method will be created in UI prototype//    UI.prototype.addBookList = function(book)___adding menthod will show on UI-create project file."
+  },
+  {
+    "topic" : "The Book List",
+    "topicAbout" : "adding book, delete book, store on ls",
+    "name" : "Validation Alert",
+    "description" : "We will make two validation alert.firat one if any input field empty other one will show if success.   //first add a if function about inputs empty or not//    //if empty alert message will work else addingbook, showsucess, clearfield will work//    //for adding a message box fist make a calling name with values through the values//    ui(_variable_).calling-name(values);    //in method function we will create-div>add class>addtext>get parent>insert alert>settimeout//..   UI.prototype.showAlert = function(message, className) {   const div = document.createElement('div');     div.className =  `alert ${className}`;     div.appendChild(document.createTextNode(message));     //get paren     const container = document.querySelector('.container');     const form = document.querySelector('#book-form');     //insert alert     container.insertBefore(div, form);     //timeout after 3 sec     setTimeout(function(){"
+  },
+  {
+    "topic" : "The Book List",
+    "topicAbout" : "adding book, delete book, store on ls",
+    "name" : "Delete Book From List",
+    "description" : "belete something by click     //we will make another click-event-listener of book-list[main-parent] id//    //instantiate ui//    const ui = new UI();      //make a calling-name with values through variable//__this time value is e.target    ui.deleteBook(e.target);    //for showing massage we will use show message method(showsucess) before we created//    //dethod method will create in UI prototype//    //delete book//   UI.prototype.deleteBook = function(target){    if(target.className === 'delete'){    target.parentElement.parentElement.remove();}"
+  },
+  {
+    "topic" : "Convert To ES6 Classes",
+    "topicAbout" : "do the same project using classes ",
+    "name" : "using classes",
+    "description" : " //the event listener will be same as before but all Book relative methods will be make under class names//   //there is two classe in "
+  },
+
+  {
+    "topic" : "Ajax & XHR Methods",
+    "topicAbout" : "making a xhr object which will display content on the browser without reloading ",
+    "name" : "",
+    "description" : "   //first make a event listener on the function we will make xhr object//                                                                     //at first intatiate our variable//                                                                     const xhr = new XMLHttprequest();                                                                       //make a xhr.open method for get the file//                                                                     xhr.open('GET', 'data.txt', true);                                                                      //make a xhr.onprogress for inserting loading animation//                                                                      xhr.onprogress = function(){);}                                                                      //make a xhr.onload for doing something with the file//                                                                       xhr.onload = function () {;if(this.status === 200) {document.getElementById('output').innerHTML = `<h1>${this.responseText}</h1>`}}      "
+  },
+
+  {
+    "topic" : "Working With Ajax & JSON",
+    "topicAbout" : "get information from a single customer.json file and then also get information ploral customers.json file by ajax, rules of making a .json file.",
+    "name" : "Working With Ajax & JSON",
+    "description" : "//like before we wil intantiate xhr varibale then establish a server connection by xhr.open//    //in the xhr.onload we will convert customer.json file to json.parse for using these information//    const customer = JSON.parse(this.responsetext);    //then we will make a innerhtml under a vriable name and then we will set it to document...customer html id//...     document.getElementById('customer').innerHtml = variablename;    //for showing many users information we have to looping our innerhtml//    //first make a let variable and append this variable to the looping variable and the everything is same as before//     customers.forEach(function(customer){     output += `      <ul>      <li>ID: ${customers.id}</li>      <li>Name: ${customers.name}</li>      <li>Company: ${customers.company}</li>      <li>Phone: ${customers.phone}</li>     </ul>`; });    //making a .json resourse//   //different component will inside of different breaketd//    //both side data of a colon : will be surrounded by double quates//    //some imortant js tags//....      anyfilename.json_____this file is like normal js file those we can use in the json for store data and use them in json and other places.      JSON.parse()_____it converted the array to json object now we can get anyfilename.id or anyfilename.name like this information."
+  },
+
+  {
+    "topic" : "Getting Data From An Extarnal Api",
+    "topicAbout" : "we can get data from an external api or our personal made api.",
+    "name" : "Getting Data From An Extarnal Api",
+    "description" : "//Everything is same as before first we will make a event listener in the form buttton ofcourse we have to make it preventDeafault//    //in the event listener function we will execute server connection by xhr.open after intantiate xhr variable to XMLHttpserver request//    //in the onload we will lopping like before our variable which we will want to display then we will insert it as a inner html//"
+  },
+
+  {
+    "topic" : "Getting Data From An Extarnal Api",
+    "topicAbout" : "we can get data from an external api or our personal made api.",
+    "name" : "Getting Data From An Extarnal Api",
+    "description" : " //Everything is same as before first we will make a event listener in the form buttton ofcourse we have to make it preventDeafault//    //in the event listener function we will execute server connection by xhr.open after intantiate xhr variable to XMLHttpserver request//    //in the onload we will lopping like before our variable which we will want to display then we will insert it as a inner html//"
+  },
+
+  {
+    "topic" : "Rest APIs HTTP Request",
+    "topicAbout" : "ex api file/element get, post, put, delete, head, option, patch",
+    "name" : "Rest APIs HTTP Request",
+    "description" : " GET ___its a HTTP request it retrive data from specified resource    POST ___its a HTTP request it submit data to be processed to a specified resource    PUT ___its a HTTP request it Update specified resource    DELETE ___its a HTTP request it Delete specified resource   HEAD ___its a HTTP request it same as GET request but does not return a body    OPTIONS ___its a HTTP request it Returns the supported http methods    PATCH___its a HTTP request it updat partial resources"
+  },
+
+  {
+    "topic" : "Callback Functions",
+    "topicAbout" : "we can simply paste one fuction to inside another function and call them anywhere",
+    "name" : "Callback Functions",
+    "description" : "//first make two callback effective function like settime out function and set callback tag where we want to paste another function//..    //suppose we have a data we want to store it to posts array and then from the arry we will display our data in UI//    //first we will make  finction-1 for store our data in posts array and we will make function-2 for display data to UI//    //if somehow function-1 is late than function-2 then there is nothing to display on the posts array//     //for solvint this problem we can use callback function//     //if we set callback on function-1 and call it will function-1 then function-2 will only active after function one is complete//    posts = [];   //function-1//    function createPost(post, callback) {    setTimeout(function() {   posts.push(post);    callback();}, 2000);}   //function-2//    function getPosts() {    setTimeout(function(){    let output = '';    posts.forEach(function(post){    output += `<li>${post.title}</li>`; });    document.body.innerHTML = output;}, 1000);}    //then we can call them anywhere//    createPost({title: `Post Three`, body: 'this is post three'}, getPosts);    "
+  },
+
+  {
+    "topic" : "Custom HTTP Library",
+    "topicAbout" : "we will make a custom library for GET method httprequest",
+    "name" : "Custom HTTP Library",
+    "description" : " //we will make two js file one is for making our custom libray other one is for using or calling our library//    //in library js file first we will make a function and we will intantiate to XMLHttprequest//    function a-name(){this.http = new XMLHttprequest}     //then we will make a get request on our function prototype//    //ofcourse in onload section we will use differect varable for 'this' for make our library work in the es5 system//    //we will call our library in our another js file will our values//    const http = new easyHTTP;    //get post//    http.get('https://jsonplaceholder.typicode.com/posts'   //we may need callback fuction for using our custom library in asincronise ways//    //for setting callback function we will put callback beside get function other properties and also inside the onload function//    //after all of these we have to make callback calling function beside our valuse in the calling section//    //we can set second parameter to the callback and also callthem more inthe project file//"
+  },
+
+  {
+    "topic" : "Custom HTTP Library Part-2",
+    "topicAbout" : "making a post request, making put request, making delete request",
+    "name" : "Custom HTTP Library Part-2",
+    "description" : " //at first make prototype of our previous function which intantiated to XMLHttprequest//    //our prototype function will hold all our properties those values will given from clling page//     easyHTTP.prototype.post = function(url, data, callback) {    //like our get request method post request method have also .open , .onload, .send part//    //.open part is same as before//     this.http.open('POST', url, true);    //before .onload section we have to make content type by .setRequestHeader//    this.http.setRequestHeader('Content-type', 'application/json');    //.onload section will be same as before//     let that = this;     this.http.onload = function() {     callback(null, that.http.responseText);}    //in the .send section our data properties will be converted to JSON.Stringify object//      this.http.send(JSON.stringify(data));    //for making a put request//    //every thing is like post request but prototype will be defferent and also the request type//    //in the calling part just prototype calling name will change//    //for deleting http request everything will same as get request//"
+  },
+  {
+    "topic" : "ES6 Promises",
+    "topicAbout" : "promisses is alternative of asincronise callback ",
+    "name" : "ES6 Promises",
+    "description" : "//its also make happen one function after one function of our requirement avoiding late apearing of any function like callback function//    //our main function will be inside of promise function//   //promise function have two part resolve and reject//   //resolve is for showing main content and reject will use for showing error//     //in the calling part our expected function will in the .then(expected-function) this other function will be the value of resolve properties//   //.catch(function(){}) it will be or reject properties value// "
+  },
+
+  {
+    "topic" : "The Fetch Api",
+    "topicAbout" : "getting data from text.txt file by fecth, getting data from local json file, getting data from external json file..",
+    "name" : "The Fetch Api",
+    "description" : " //first we will make a event listener of any button//    //in the eventlistener function for geting our text file we have to write fetch('filename.txt')//    //fetch('filename.txt') will return a promiss automaticaly for grab this promiss we have to use .then calling method//    //in the promise response the .text file is holding our text data/information and this is also return a promise automaticaly we will use .then for grabbing data inside of it//     fetch('test.txt')     .then(function(lala){      return lala.text();})     .then(function(lulu) {      console.log(lulu);})    //incase any error heppen we will use .catch function//      //getting data from local json and from external api method is same as text.txt method but we have to make lopping from get dat json array//      //more information in the project file//"
+  },
+
+  {
+    "topic" : "Arrow Function",
+    "topicAbout" : " making shortcut of anytype of function",
+    "name" : "Arrow Function",
+    "description" : "//we dont need to write function word//    const sayHello = () => {    console.log('hello');}   //we can do it also without thirs breaket//    const sayHello = () => console.log('hello');   //we can return without writhing this word//    const sayHello = () => console.log('hello');   //return object type data//    const sayHello = () => ({ msg: 'hello'})   //single parameter does not need breaket//     const sayHello = name => `hello ${name} how are you`;  //more than one parameter need breaket//     const sayHello = (firstName, lastName) => console.log(`hello there ${firstName} ${lastName}`);     sayHello('farabi', 'Hossain');   //some important js tags//..   array-name.map(function(x)_x.length_____ will show our array values length.   users=['alamin','kuddus','rahim']    users.length____using this line we can know how many element in this users array.   users.map(function(nam){return nam.length}____using this line we can get length of every single element inside of this array."
+  },
+
+  {
+    "topic" : "Custom Http Library With Fetch Promises",
+    "topicAbout" : "using class fetch promises we will make http get request, post request, delete request ",
+    "name" : "Custom Http Library With Fetch Promises",
+    "description" : " //first we will make a class and a function inside it//    //we will build a promise with its two part resolve and reject//    //inside promise we will establish a fetch on url for grabbing data from this url//   //as fetch return promise itself so we will use .then for getting primary data and again  .then for getting data inside it//    //in our library where we will use resole and reject in the other sode we can call these resolve and reject data anywhere  //Make an HTTP GET request     get(url)  {return new Promise((resolve, reject) => {     fetch(url)     .then(res => res.json())     .then(data => resolve(data))     .catch(err => reject(err));});}        //making a post request is same as making get request but this time we will take data beside url and also fatching object with method, headers, body attributes//        fetch(url, {        method: 'POST',        headers: {        'Content-type': 'application/json'},         body: JSON.stringify(data)         //making a put request everything is same as post request just change word post to put and also url//           //making a delete request is same as put request but this time method: will delete no need body: in the fetch//       //we are not sending any data so resolve will show a message only//       //in the calling no neen data only url//          //Delete post//        http.delete('https://jsonplaceholder.typicode.com/users/2')       .then(data => console.log(data))        .catch(err => console.log(err));   "
+  },
+
+  {
+    "topic" : "Asinc And Await",
+    "topicAbout" : "these are es7 tags. async make a function promise type and await wait a function happen until another is resolved or happen",
+    "name" : "Asinc And Await",
+    "description" : " //async is alternative of a line which will make a function promise//    // return new promise() => ___or___ async function()//    //await almost make a sequence which will happen after//    "
+  },
+
+  {
+    "topic" : "Fetch With Async Await",
+    "topicAbout" : "everything is same as making custom http fetch and promise.",
+    "name" : "empty",
+    "description" : "empty"
+  },
+
+  {
+    "topic" : "Github Finder Part1",
+    "topicAbout" : "Just making html and css, its a profile search app making on github.",
+    "name" : "empty",
+    "description" : "empty"
+  },
+
+  {
+    "topic" : "Github Finder Part2",
+    "topicAbout" : "bulding app.js and github.js files for fetching data from the github and functioning them for making our web app  ",
+    "name" : "Github Finder Part2",
+    "description" : " //building github.js file for our github search machine//    //in the github.js file we will functionate a class for fetching data from the github server//    //building app.js file/    //we have to intantiate any class if we want to call it or use it from another js file//     const github = new GitHub    //after intentiate a variable we will make a keyup eventlistener for input box//    //we will call githab.js function and the input value will be the value of the github.js function calling//"
+  },
+
+  {
+    "topic" : "Github Finder Part3",
+    "topicAbout" : "making a innerhtml in the ui.js file and it will appear when we put a name in the input box",
+    "name" : "Github Finder Part3",
+    "description" : "//first we will make a UI name class and it will hold a constructor and a method//    //constructor will take our id name profile where we will insert our inner html//    //in the method name showProfile will hold our inner html under profile id name//    //it will be called on the app.js file with input box value as the method value//"
+  },
+  {
+    "topic" : "Github Finder Part 4",
+    "topicAbout" : "adding clearprofile, Showalert, clearalert method on ui.js file",
+    "name" : "Github Finder Part 4",
+    "description" : "//clearprofile method//    //just make the innerhtml empty//    //showAlert method//    //showing alert will not be use innerhtml we will indert element manualy//    //Shoq Alert massage//       showAlert(message, className){       //clear any remaining alert//        this.clearAlert();      //create div//         const div = document.createElement('div');       //add classes//          div.className = className;       //add text//          div.appendChild(document.createTextNode(message));       //get parent//          const container = document.querySelector('.searchContainer');       //get search box//          const search = document.querySelector('.search');       //insert alert//           container.insertBefore(div, search);       //timeout after 3 sec//            setTimeout(() => {            this.clearAlert();            }, 3000); }                                                         //more in the project file//"
+  },
+  {
+    "topic" : "Github finder part 5",
+    "topicAbout" : "Show user repos using defferent api url",
+    "name" : "Github finder part 5",
+    "description" : " //for getting data from api we will make different url under github class//    //github data will use as the value our show repos method which will make under UI class file//    //more in the project file//"
+  },
+  {
+    "topic" : "Error Handling With try_catch",
+    "topicAbout" : "produce error,making program run although error",
+    "name" : "Error Handling With try_catch",
+    "description" : "//try_catch system has a body structor//    try {}    catch{}   //try{} we will consider all type error here also can add if and other function//    Produce a ReferenceError    myfunction();___there is no function made by this name yet so it is a reference error.    Produce a TypeError    null.myFunc();___null object can not give any function so it is typeError functiopn.    Produce a SyntaxError    eval('hello World');___string type have to use  so it is syntex error.    Produce a uri error    decodeURIComponent('%');   //we can produce any type of error by ourself//  if(!user.name) {    throw 'user has no name';    throw new SyntaxError('user has no name');   //catch{} we can use it for showing message and other for our try{} error//    console.log(`user error: ${err.message}`)    console.log(`${err.name}: its null function you gentelman!!!`)    console.log(err);    console.log(err.message);    console.log(err.name);    console.log(err instanceof ReferenceError);   //we can add also a finally section for giving message and other for showing our programn is continue//    finally{console.log('finnly it will runs regurdless..');}"
+  },
+  {
+    "topic" : "Regular Expression Part-1",
+    "topicAbout" : ":some basic function of regular expression",
+    "name" : "for declear a variabler of regular expression he have covered our element by slce (/)",
+    "description" : " let re;   re = /hello/"
+  },
+  {
+    "topic" : "Regular Expression Part-1",
+    "topicAbout" : ":some basic function of regular expression",
+    "name" : "there is some regular expression flag",
+    "description" : "i__case insensitive if we put beside our RE word.    g______like i its also re flag and its work is find out how many word match with RE word in a big text.    "
+  },
+  {
+    "topic" : "Regular Expression Part-1",
+    "topicAbout" : ":some basic function of regular expression",
+    "name" : "exec()",
+    "description" : "if we use it with a regular expression variable then it will show regular expression word if it in the exec() breaket or if not it will show null.// Return result in an array or null//  const result = re.exec('never say anybody hello in namaz');   console.log(result);"
+  },
+  {
+    "topic" : "Regular Expression Part-1",
+    "topicAbout" : ":some basic function of regular expression",
+    "name" : "test()",
+    "description" : "return true or false if there is any match with our regular expression word.//   Returns true or false//    const result = re.test('Hello');    console.log(result);"
+  },
+  {
+    "topic" : "Regular Expression Part-1",
+    "topicAbout" : ":some basic function of regular expression",
+    "name" : "match()",
+    "description" : "its work almost same as exec() but its formation is little different.//    Return result arry or null//    const str = 'Hello There';   const result = str.match(re);    console.log(result);"
+  },
+  {
+    "topic" : "Regular Expression Part-1",
+    "topicAbout" : ":some basic function of regular expression",
+    "name" : "search()",
+    "description" : "Return index  of the first match if not found return -1//    const str = 'saifullah hello there';    const result = str.search(re);    console.log(result);"
+  },
+  {
+    "topic" : "Regular Expression Part-1",
+    "topicAbout" : ":some basic function of regular expression",
+    "name" : "replace()",
+    "description" : "Return new string with some or all mathches of a pattern//    const str = 'sifullah Hello there';    const newStr = str.replace(re, 'Hi');    console.log(newStr);"
+  },
+  {
+    "topic" : "Regular Expression Part 2 n 3 n 4",
+    "topicAbout" : "making function on any cherector match or not, different way to make sure if any word is there or not, check any word is on end and start",
+    "name" : "Metachracter Symbols",
+    "description" : "there are different kind of regular expression writting method those are check any word is there end or start            re = /^h/;             // Must start with    re = /d$/i;            // Must ends with    re = /^hello$/i;       // Must began and end with    re = /h.llo/i;         // Matches any one charecter - its match if we put random a word in the fullstop.    re = /h*llo/i;         // Matches any charector 0 or more - its match if we put random many charecter at the place of star.    re = /gre?a?y/i;       // Optional charecter - right side questionmark mean its match if any of these two cherecter is presence.    re = /gre?a?y\/i;     // Escape/literal/ - slashRight side question mark mean it match if the word must have."
+  },
+  {
+    "topic" : "Regular Expression Part 2 n 3 n 4",
+    "topicAbout" : "making function on any cherector match or not, different way to make sure if any word is there or not, check any word is on end and start",
+    "name" : "Brackets [] - Character Sets",
+    "description" : "   re = /gr[ae]y/i;       // Must be an a or e - its match if any one is presence here.    re = /[GF]ray/i;       // Must be G or F -  its match if any one is presence here.    re = /[^GF]ray/i;      // Match anything except G or Y - anyword will match if there is no g or y.    re = /[A-Z]ray/;       // Match any uppercase letter - it match if first letter is any upper case.    re = /[a-z]ray/;       // Match any lower letter - it match if first letter is any upper case.    re = /[A-Za-z]ray/;    // Match any letter of any case - its match if we put any letter any case.    re = /[0-9]ray/;       // Match any digit - its will match if first letter if digit.    "
+  },
+  {
+    "topic" : "Regular Expression Part 2 n 3 n 4",
+    "topicAbout" : "making function on any cherector match or not, different way to make sure if any word is there or not, check any word is on end and start",
+    "name" : "Braces {} - Quantifier",
+    "description" : " re = /Hel{2}o/i;        // Must occur exactly {m} amount - it match if there two ll letter.    re = /Hel{2,4}o/i;      // Must occur exactly {m} amount of time - it match if there two-four l letter.    re = /Hel{2,}o/i;       // Must occur atleast {m} times - its match if there two-unlimited l letter."
+  },
+  {
+    "topic" : "Regular Expression Part 2 n 3 n 4",
+    "topicAbout" : "making function on any cherector match or not, different way to make sure if any word is there or not, check any word is on end and start",
+    "name" : "Paretheses () - Grouping",
+    "description" : "re = /^([0-9]x){3}$/     // Its means there only 3x or (0-9)x three time"
+  },
+  {
+    "topic" : "Regular Expression Part 2 n 3 n 4",
+    "topicAbout" : "making function on any cherector match or not, different way to make sure if any word is there or not, check any word is on end and start",
+    "name" : "Shorthand Character Classses",
+    "description" : "                               re = / w/;            // word character -alphanumaric/anyletter-anyunumber or _    re = /rightSlasew+/;           // one or more alphanumaric word charector    re = /rightSlase W/;            // Non-Word charector    re = /rightSlase d/;            // Match any digit    re = /rightSlase d+/;           // Match any digit 0 or more    re = /rightSlase D/;            // Match any Non-digit    re = / rightSlases/;            // Match whitespace char    re = / rightSlaseS/;            // Match non-whitespace char    re = /Hell\b/i;       //word boundary - finding actual word.        "
+  },
+  {
+    "topic" : "Regular Expression Part 2 n 3 n 4",
+    "topicAbout" : "making function on any cherector match or not, different way to make sure if any word is there or not, check any word is on end and start",
+    "name" : "Assertions",
+    "description" : "                                   re = /x(?=y)/;        //Match x only if followed by y - it match if there is any word like xy, fixy.    re = /x(?!y)/;       //Match x only if NOT followed by y - it match if there is not any word like xy, fixy."
+  },
+  {
+    "topic" : "Regular Expression Part 2 n 3 n 4",
+    "topicAbout" : "making function on any cherector match or not, different way to make sure if any word is there or not, check any word is on end and start",
+    "name" : "we can check match any word by .test function",
+    "description" : "function reTest(re, str) {      if(re.test(str)) {      console.log(`${str} matches ${re.source}`)      } else {      console.log(`${str} does Not match ${re.source}`); }}"
+  },
+  {
+    "topic" : "Iterators Generators",
+    "topicAbout" : "getting values one by one from an array - an advance level loop which can be pushed",
+    "name" : "Iterators Generators",
+    "description" : "//first we will make a function with one properties//    //then a let variable which value will be 0//    //make a return {}_in the return make a function under any name and also its have a return line//    // in the return there is a condition if let variable < property.length then done:true nad value:properties[let-variable++]//    //else there will done:true//    //on the other side we will make a arry and this arry we can put our iterator function as a value//    //now we can output differently one by one of our array values//    // Iterator Example//     function nameIterator(names) {     let nextIndex = 0;     return {next: function() {return nextIndex < names.length ?     { value: names[nextIndex++], done: false} :     { done: true}                } }}    //more in the project file//         //generator work almost same as iterator but formated difference//    //generator function must have star* and our values will     //Generator Example       function* sayNames() {       yield 'Sadek';       yield 'Abdullah'       yield 'Motiur' }     //we will call this function under variable//       const name = sayNames();      console.log(name.next().value);       console.log(name.next());     //we can make loops with these generator function//     //ID Creater - loops by generator function//       function* createIds() {       let index = 1;       while(true) {       yield index++; }}"
+  },
+  {
+    "topic" : "Profile Scroller",
+    "topicAbout" : "Iterator Mini Project-profile will display one by one from an array data.",
+    "name" : "Profile Scroller",
+    "description" : "  //make a event listener for next button clicking this profile will come one by one//    //profile iterator function will build outside of the event listener then it will call for profile one by one//    //profile iterator making as same as before//    //we will make a variable for iterator function our array will its propertie value//    //the variable we make for iterator it will use for display our profile...more in the project file//"
+  },
+  {
+    "topic" : "Symbols",
+    "topicAbout" : "Unique identity of object data ",
+    "name" : "Symbols",
+    "description" : "//Create a symbol//    const sym1 = Symbol();    const sym2 = Symbol('sym2');    console.log(typeof sym2);    //symbols cannot be equal although values and properties are same//    console.log(Symbol('123') === Symbol('123')); result=false    //we have to call symbol with third breaket[]//    const KEY1 = Symbol();    const KEY2 = Symbol('sym');    const myObj = {};    myObj[KEY1] = 'Prop1';    myObj[KEY2] = 'Prop2';   //Symbols are not enumerable in for....in loop//   //Symbol are ignored by JSON.stringify//   //more in the project file//"
+  },
+  {
+    "topic" : "Destructuring",
+    "topicAbout" : " Get information easyly from objec data or array data, rest pattern",
+    "name" : "Destructuring",
+    "description" : "  //we can get values from its decleared variable//    let a, b;    [a, b] = [100, 200];    console.log(a);    console.log(b);    //but we can get undecleared data by rest pattern with ... tree dot//    //Rest pattern//    [a, b, ...re] = [100,300,200,5000,599];    console.log    //Rest pattern - of object type data//      ({ a, b } = {a: 100, b:200, c:300, d:400, e:500 });      ({ a, b, ...re } = {a: 100, b:200, c:300, d:400, e:500 });      console.log(re);   //we can put valu and properties in different arry but destructuring method we can display them//   // Array Destructuring //    const people = ['John', 'Beth', 'Mike'];    const [person1, person2, person3] = people;    console.log(person1, person2, person3);   //we can do same with function wich return array values//     let person1, person2, person3;     [person1, person2, person3] = getPeople();     console.log(person1, person2, person3);   //object destructuring is also same first we will make object data and we can display them with variable which are decleared separetly//   // Object Destructuring//   const person = {    name: 'Abdul Motin',age: 39,city: 'Miami',gender: 'male'}// New Es6 Destructuring//const { name, age, city} = person;"
+  },
+  {
+    "topic" : "MAPS",
+    "topicAbout" : "its key-value pairs  - can use ANY type as a key or value",
+    "name" : "MAPS",
+    "description" : "//we have to intantiate a variable to use it as a map variable//    //intantiate a variable to MAP constructor//    const map1 = new Map();    //we have to set some variable as key values can be any type//    // Set Keys //    const key1 = 'some string',          key2 = {},          key3 = function() {};    //we have to set values of our map keys//    //Set map values by key//    map1.set(key1, 'value if key1');    map1.set(key2, 'value of key2');    map1.set(key3, 'value of key3');    //now we can display our values by the key//    // Get values by key//    console.log(map1.get(key1), map1.get(key2), map1.get(key3))    //we can count how many values we have//    //count values//    console.log(map1.size);    //We can iteratting maps//    // ITERATING MAPS//    //Loop using for...of to get keys and values//    for(let [key, value] of map1) {      console.log(`${key} = ${value}`);}    // Iterate keys only//    for(let key of map1.keys()) {      console.log(key);}    // Iterate values only//   for(let value of map1.values()) {      console.log(value);}    //iterating Loop with forEach only for pairs/sets    map1.forEach(function(value, key){      console.log(`${key} = ${value}`)})    // CONVERT SETS/mappairs TO ARRAYS//    //create an array of the key value pairs//    const keyValArr = Array.from(map1);    console.log(keyValArr);    //create an array of the valus//    const valArr = Array.from(map1.values());    console.log(valArr);    //create an array of the keys//    const   console.log(keyArr);"
+  },
+  {
+    "topic" : "ES6 SETS",
+    "topicAbout" : "Store unique of any type. it just have value no keys. it take only uniqu values.never take a value two times",
+    "name" : "ES6 SETS",
+    "description" : "//first we have to intentiate variable to the Set()//    const set1 = new Set();    // Add values to set//    set1.add(100);    set1.add('A String');    set1.add({name: 'John'});    set1.add(true);    __const set2 = new Set([1, true, 'string']);__same    //Get count-it get how many values in the set//    console.log(set1.size);    //Check for values//    console.log(set1.has(100));    console.log(set1.has(80 + 20));_same    //Delete from the set//    set1.delete(100);    //ITARATING THROUGH SETS//    //For..of iterating//    for(let item of set1) {      console.log(item);}    //ForEach Loop iterating//    set1.forEach((value) => {    console.log(value);});    //CONVERT SET TO ARRAY//    const setArr = Array.from(set1);    console.log(setArr);"
+  },
+  {
+    "topic" : "Module Revaling Module Pattern",
+    "topicAbout" : "pattern",
+    "name" : "Module Revaling Module Pattern",
+    "description" : "a module have mainly two part one is for private variable and funnction and other part is for public variable and functions//    //private variable and functions cannot access from outside of module but public part can be access from the outside of module//    // Basic structuer - of Module        (function() {       //Declare private var and functions      return {       //Declare public var and functions       }})(         //STANDERD MODULE PATTERN-REVEALING MODULE PATTERN IN THE PROJECT FILE"
+  },
+  {
+    "topic" : "Fectory Pattern",
+    "topicAbout" : "pattern",
+    "name" : "Fectory Pattern",
+    "description" : "//first make function of our fectory method//    //make a constructor which have and type properties//    //we will make a variable our main function will return this variable//    //before return this varable we will create different method like .type .define//    //more in the project file//    "
+  },
+  {
+    "topic" : "Tracalorie Project Using Module",
+    "topicAbout" : "food adding, delete, update and calculating calorie",
+    "name" : "Controler Data Structures",
+    "description" : "//Item controller//    //first make a constructor for taking data by the user in particuler variable//    //make a data structure__where our data will store//    //according to module pattern our uppersite was private part but the is the return section//    //in the public part our data will return under a function name//    //app controle will maintain all the other control so we will take other controller as a properties//"
+  },
+  {
+    "topic" : "Tracalorie Project Using Module",
+    "topicAbout" : "food adding, delete, update and calculating calorie",
+    "name" : "Get Populate Items",
+    "description" : "//our ui controler method will be call in the app controller with items properties of course the items property is the variable of our ItemCtrl.getItem//    //in the ui controller method we will make a variable where we will make store innerHtml//    //we will make a forEach for everyitem in our items properties and then put them in the innerHtml//    //this innerHtml will be diplsy under item-list ul id//    //for changing easyly ul id we make another method UISelector//    //more in the project file//"
+  },
+  {
+    "topic" : "Tracalorie Project Using Module",
+    "topicAbout" : "food adding, delete, update and calculating calorie",
+    "name" : "Add Item To Data Structure",
+    "description" : "add item from the input from to data structue with generating automatic id.    //we will make a event listener in the AppCtrl private part-the eventlistener function also in the private     //in the event listener under a if condition we will send our two input in the intemctrl.additem method as value//    //in the itemctrl.additem method we will generate id which will detect last added item id automatic//    //in the itemctrl.additem method we will calories to number type and also push all data to data structure//    //more in the project file//"
+  },
+  {
+    "topic" : "Tracalorie Project Using Module",
+    "topicAbout" : "food adding, delete, update and calculating calorie",
+    "name" : "Add Item To The UI",
+    "description" : "//this function will be made in the UIctrl and it will be called in the app controller with the value of a variable which contain ItemCtrl.additem function//    //in the function we will create li element and its id,class name and also put a inner html//    //li complete element will insert html id through .insertAdjacentElemnt js tags//    //there is clearInput method which call in the eventlistener in the last and will made UICtrl part//"
+  },
+  {
+    "topic" : "Tracalorie Project Using Module",
+    "topicAbout" : "food adding, delete, update and calculating calorie",
+    "name" : "Add Total Calories",
+    "description" : "//at first in the event listener we will get calories under a variable from ItemCtrl//    //in the item ctrl we will make a method that add calorie values automatic//    //display total calories method will be called in event listener and the value will be our getCalories variable//    //the method will build in the UICtrl in the method we just create a textContent under html class name//    //more in the project file//    "
+  },
+  {
+    "topic" : "Tracalorie Project Using Module",
+    "topicAbout" : "food adding, delete, update and calculating calorie",
+    "name" : "Working With The Edit State",
+    "description" : "//we have to make a event listener for our icon//    //but if we anything produce/add/dispaly dynamicly we cant just make a event listener on it//    //we have to make a event delegation-meamn we will make a parent class/id eventListener and then make a if statement for search for our icon class/id//    //we will separete id number from our li through split method//    //then we will make a method in ItemCtrl name getItemById this method we will get actual item of our id then we will return it through a variable//    //then we will sent our item to ItemCtrl.setCurrentItem method for store our item under currentItem variable//    //then we will make a UICtrl.addItemToForm method for put our currentitem stored element to our input fields//"
+  },
+  {
+    "topic" : "Tracalorie Project Using Module",
+    "topicAbout" : "food adding, delete, update and calculating calorie",
+    "name" : "Updating Item Total Calories",
+    "description" : "//we can disable any key of keybord//    //there is different code for every keybord key//    //we can apply if condition for disable these key like//..     //Disable Enter Button//        document.addEventListener('keypress', function(e){          if(e.keyCode === 13 || e.which === 13) {            e.preventDefault();            return false;})    //if we get data from a form we may convert it to intiger data type  before we put it anywhere//    calories = parseInt(calories)        //first we will make event listener for our update button//    //int eventListener function we will make a function for grabbing input field update values//    //we will makle a updateitemvalues function with inputfield variable as a value//    //in the update item value we will re write our ItemCtrl.data.Items values//    //then we will update ui by making updateuiList function//    //then we will copy total calories method for upper eventListener function//    //we also call clearState function//    //more in the project file//"
+  },
+  {
+    "topic" : "Tracalorie Project Using Module",
+    "topicAbout" : "food adding, delete, update and calculating calorie",
+    "name" : "Delete And ClearItem",
+    "description" : "making delete any li by clingking on delete button. //we can directly call any method at the place of eventlistener function what we did to back button eventListerner function//    //first we will make a eventlistener on delelte button//    //in the event listener function we will get current item under a variable//    //this variable will be our propertu value for ItemCtrl.delete item method//    //in the ItemCtrl.delete item method first we will apply .map formula for gettingt data.items id//        const ids = data.items.map(function(item){           return item.id;    //then we will findout index of our if in the data.items by index of formula//     const index = ids.indexOf(id);        console.log(index);    //and finnaly we will remove data from our data.items by splice formula//   data.items.splice(index, 1);        //after deleteing from data structure we will delete from ui//    //we will make a UICtrl.deleteListItem(currentitem.id) for deleteing from the ui//   //in the deleteListItem first we will get #item-${id} under a variable//    //and using this item id we will get it html id by using quarySeolector and then removeit//    //more in the project file//            //making clearAll button active we will make a event listener for this button//    // using  ItemCtrl.clearAllItems(); method we will remove data from data structure//    // and then we will make a UICtrl.removeItems(); for making ui/display item make remove//    //in the UICtrl.removeItems(); methoid we will call nodelist of all li items of ul//    //the convernt it to an array and then maek a for each and remove themall//      "
+},
+  {
+    "topic" : "Tracalorie Project Using Module",
+    "topicAbout" : "food adding, delete, update and calculating calorie",
+    "name" : "Add Get From LocalStorage",
+    "description" : "//local storage alwayes store string type file in default so we have to use JSON.stringify() method//    //but when we tage data from localStorage we will make our data object by JSON.parse().//        // for storing our data by clicking addItem button we will make our method function in additem evenet listener function//    //first we will make a method StorageCtrl.storeItem(newItem) in the mathod we will make a empty arrey//    //if there localstorage.getItem('items')===null then items =[] and we will push our main property in this array//    //elese is already there something we will get them with JSON.parse and then push our main properties to items array//   storeItem: function(item){          let items = [];          // Check it any items in localstorage          if(localStorage.getItem('items') === null){            items = [];            //Push new item            items.push(item);            //set ls            localStorage.setItem('items', JSON.stringify(items));          } else {           // Get What is already in ls            items = JSON.parse(localStorage.getItem('items'));            //Push new item            items.push(item);                //Re set ls            localStorage.setItem('items', JSON.stringify(items));          }    // now what we add by addbtn items also store in the local storage//        //now we wnat to get them what we store in the local storage for this we will make storage.getItemsFromStorage method//    //in the method we will check if there is not something in there//    //if there is something we will return it//     getItemsFromStorage: function(){          let items;          if(localStorage.getItem('items') === null){            items = [];          } else {            items = JSON.parse(localStorage.getItem('items'));          }          return items;        }        // when we relode the page we want stay our items in the page so doing that we have to connect our ItemCtrl.data.items to our getItemsFromStorage//    items: StorageCtrl.getItemsFromStorage(),    //now our all item will stay here although we relode our page//    "
+  },
+  {
+    "topic" : "Tracalorie Project Using Module",
+    "topicAbout" : "food adding, delete, update and calculating calorie",
+    "name" : "Delete Clear From Local Storage",
+    "description" : "//in the storageCtrl.deleteFromLocalStorage method we will take currentItem id as a value from the delete item event function.//   // first we get all item under a variable and we will make a forEach in this variable with two property//    //we will make a condition in this localStorage forEach if codition is match item will splice from the array//    //and then we will reset our localStorage//    deleteFromLocalStorage: function(currentid){          let items = JSON.parse(localStorage.getItem('items'));             items.forEach(function(item, index){            if(currentid === item.id){              items.splice(index, 1);            }          });          localStorage.setItem('items', JSON.stringify(items));"
+  },
+  {
+    "topic" : "Tracalorie Project Using Module",
+    "topicAbout" : "food adding, delete, update and calculating calorie",
+    "name" : "",
+    "description" : ""
+  },
+  {
+    "topic" : "Traclorie Project By Me",
+    "topicAbout" : "various kinds of sitiation handal and solving problem , memories methods.",
+    "name" : "Traclorie Project By Me",
+    "description" : "//we will maintain or call all UICtrl and ItemCtrl methods function from the app controller//    //UI mean user interface all item display and decorating and all html tags work will be done in this section//    //in the item controll it will work our data system there we will store data and delete and update them//    //app public part have to call outside for making whole app control work//        //when we make any function method we have to return something for make this working//    //main project-213-addListItem function method if we put innerHtml on html class directly then it will over write every time by previus one//    //we have to create li,li clssName, li id, then li innerHtml manualy and finaly we will insert it by .insertAdjacentElement tag//              const li = document.createElement('li');          // Add class          li.className = 'collection-item';          // Add ID          li.id = `item-${item.id}`;          // Add HTML          li.innerHTML = `<strong>${item.name}: </strong> <em>${item.calories} Calories</em>          <a href=# class=secondary-content>            <i class=dit-item fa fa-pencil></i>          </a>`;          // Insert item          document.querySelector(UISelectors.itemList).insertAdjacentElement('beforeend', li)                    //we can make a forEach to any html tag group or Nodelist items found by .querySelectorAll .getItemsbyClassName and multiple sylectore//    //for doing this forEach we have to convert to NodeList item to array//        let listItem = document.querySelectorAll(UISelectors.listItems);        listItem = Array.from(listItem);            listItem.forEach(function(listItem){          const listItemID = listItem.getAttribute('id');          if(listItemID === `item-${item.id}`) {          document.querySelector(`#${listItemID}`).innerHTML =           ` <div>         <strong>${item.name}: </strong> <em>${item.calorie} Calories</em>         </div>         <a href=# class=secondary-content><i class=edit-item fa fa-pencil-alt></i></a>`;                //localStorage alowayes take JSON.stringify or string type data//    //for using localStorage data we have to use JSON.parse type data//    //we have to re set our item form localStorage//           //we can localStorage everytime when we delete,updata make automatic increase id and then add with our any data by constructore//    addItemInData: function(name, calorie){      calorie = parseInt(calorie);      let = ID;      if(data.items.length > 0){        ID = data.items[data.items.length -1].id + 1;      } else {        ID = 0;      }      const newItem = new Item(ID, name, calorie);      data.items.push(newItem);      }            //we can make eventListener of any tag/icon/anyplace inside user-interface/html-tag by event delegation or using  e.target.classList.contains(className)//    //we can get almost any information by using string-methods,array-method,object-method//    if(e.target.classList.contains('edit-item')){              UICtrl.showEditState();             const listId = e.target.parentNode.parentNode.id;              const listIdArr = listId.split('-');              const id = parseInt(listIdArr[1]);              const itemToEdit = ItemCtrl.getItemByid(id);              const setCurrentItem = ItemCtrl.setCurrentItem(itemToEdit);                   //using .map we get every specific item in the array//   const ids = data.items.map(function(item){           return item.id;______using this line we will get every item.id from the data.items array.            //make a let variable for getitem localStorage with jason parse and make a forEach with item,index two property//    //we have to do this everytime for making delete item or update item everytime//     updateItemLs: function(updateItem){      let items = JSON.parse(localStorage.getItem('items'));      items.forEach(function(item, index){        if(item.id === updateItem.id){          items.splice(index, 1, updateItem)        }      })      localStorage.setItem('items', JSON.stringify(items));"
+  }
+ 
+]
